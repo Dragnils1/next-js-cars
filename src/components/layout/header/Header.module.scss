@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-self: center;   
+    width: 100%;
+    justify-content: center;
+}
+
+.header a {
+    color: rgb(102, 25, 204);
+    margin: 0 10px;
+    transition: color 0.4s ease-in-out;
+}
+
+.header a:hover, 
+.header .active {
+    color:aqua;
+}
